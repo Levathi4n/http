@@ -4,7 +4,7 @@ const server = http.createServer(function(req, res) {
     if (req.url == "/") {
         if (req.method == "GET") {
             res.writeHead(200);
-            res.write("HTTP - GTPS");
+            res.write("Leon Icikiwir Foundation");
             res.end();
         }
     }
